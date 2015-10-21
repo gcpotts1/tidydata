@@ -66,329 +66,494 @@ fBodyGyroJerkMag
 # The Data Dictionary below contains the desriptive column names for the output file from run_analysis.R. This also indcates the potential values of the output data.
 # Data Dictionary - Time Domain
 Subject		2
+
 	The number corresponding to the test subject
+
 	values = 1 - 30
 	
 Activity	
+
 	The type of activity performed
+
 	values = WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 	
 tBodyAcc-mean()-X
+
 	Mean Body Acceleration - X axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 
 tBodyAcc-mean()-Y
+
 	Mean Body Acceleration - Y axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyAcc-mean()-Z
+
 	Mean Body Acceleration - Z axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 
 tBodyAcc-std()-X
+
 	Standard Deviation Body Acceleration - X axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyAcc-std()-Y
+
 	Standard Deviation Body Acceleration - Y axis (time domain)
-		values = -1 ... +1		
+
+	values = -1 ... +1		
 
 tBodyAcc-std()-Z
+
 	Standard Deviation Body Acceleration - Z axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tGravityAcc-mean()-X
+
 	Mean Gravity Acceleration - X axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tGravityAcc-mean()-Y
+
 	Mean Gravity Acceleration - Y axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tGravityAcc-mean()-Z
+
 	Mean Gravity Acceleration - Z axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tGravityAcc-std()-X
+
 	Standard Deviation Gravity Acceleration - X axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tGravityAcc-std()-Y
+
 	Standard Deviation Gravity Acceleration - Y axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tGravityAcc-std()-Z
+
 	Standard Deviation Gravity Acceleration - Z axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyAccJerk-mean()-X
+
 	Mean Body Acceleration Jerk - X axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyAccJerk-mean()-Y
+
 	Mean Body Acceleration Jerk - Y axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyAccJerk-mean()-Z
+
 	Mean Body Acceleration Jerk - Z axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyAccJerk-std()-X
+
 	Standard Deviation Body Acceleration Jerk - X axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyAccJerk-std()-Y
+
 	Standard Deviation Body Acceleration Jerk - Y axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyAccJerk-std()-Z
+
 	Standard Deviation Body Acceleration Jerk - Z axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
+
 tBodyGyro-mean()-X
+
 	Mean Body Gyroscope - X axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyGyro-mean()-Y
+
 	Mean Body Gyroscope - Y axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyGyro-mean()-Z
+
 	Mean Body Gyroscope - Z axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyGyro-std()-X
+
 	Standard Deviation Body Gyroscope - X axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyGyro-std()-Y
+
 	Standard Deviation Body Gyroscope - Y axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyGyro-std()-Z
+
 	Standard Deviation Body Gyroscope - Z axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyGyroJerk-mean()-X
+
 	Mean Body Gyroscope Jerk - X axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyGyroJerk-mean()-Y
+
 	Mean Body Gyroscope Jerk - Y axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyGyroJerk-mean()-Z
+
 	Mean Body Gyroscope Jerk - Z axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyGyroJerk-std()-X
+
 	Standard Deviation Body Gyroscope Jerk - X axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyGyroJerk-std()-Y
+
 	Standard Deviation Body Gyroscope Jerk - Y axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyGyroJerk-std()-Z
+
 	Standard Deviation Body Gyroscope Jerk - Z axis (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyAccMag-mean()
+
 	Mean Body Acceleration Magnitude (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyAccMag-std()
+
 	Standard Deviation Body Acceleration Magnitude (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tGravityAccMag-mean()
+
 	Mean Gravity Acceleration Magnitude (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tGravityAccMag-std()
+
 	Standard Deviation Gravity Acceleration Magnitude (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyAccJerkMag-mean()
+
 	Mean Body Acceleration Jerk Magnitude (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyAccJerkMag-std()
+
 	Standard Deviation Body Acceleration Jerk Magnitude (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyGyroMag-mean()
+
 	Mean Body Gyroscope Magnitude (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyGyroMag-std()
+
 	Standard Deviation Body Gyrscope Magnitude (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyGyroJerkMag-mean()
+
 	Mean Body Gyroscope Jerk Magnitude (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 tBodyGyroJerkMag-std()
+
 	Standard Deviation Body Gyroscope Jerk Magnitude (time domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 		
 		
 #Data Dictionary - Frequency Domain
 fBodyAcc-mean()-X
+
 	Mean Body Accelerometer - X axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAcc-mean()-Y
+
 	Mean Body Accelerometer - Y axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAcc-mean()-Z
+
 	Mean Body Accelerometer - Z axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAcc-std()-X
+
 	Standard Deviation Body Accelerometer - X axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAcc-std()-Y
+
 	Standard Deviation Body Accelerometer - Y axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAcc-std()-Z
+
 	Standard Deviation Body Accelerometer - Z axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAcc-meanFreq()-X
+
 	Mean Frequency Body Accelerometer - X axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAcc-meanFreq()-Y
+
 	Mean Frequency Body Accelerometer - Y axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAcc-meanFreq()-Z
+
 	Mean Frequency Body Accelerometer - Z axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAccJerk-mean()-X
+
 	Mean Body Accelerometer Jerk - X axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAccJerk-mean()-Y
+
 	Mean Body Accelerometer Jerk - Y axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAccJerk-mean()-Z
+
 	Mean Body Accelerometer Jerk - Z axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAccJerk-std()-X
+
 	Standard Deviation Body Accelerometer Jerk - X axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAccJerk-std()-Y
+
 	Standard Deviation Body Accelerometer Jerk - Y axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAccJerk-std()-Z
+
 	Standard Deviation Body Accelerometer Jerk - Z axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAccJerk-meanFreq()-X
+
 	Mean Frequency Body Accelerometer Jerk - X axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAccJerk-meanFreq()-Y
+
 	Mean Frequency Body Accelerometer Jerk - Y axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAccJerk-meanFreq()-Z
+
 	Mean Frequency Body Accelerometer Jerk - Z axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyGyro-mean()-X
+
 	Mean Body Gyroscope - X axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyGyro-mean()-Y
+
 	Mean Body Gyroscope - Y axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyGyro-mean()-Z
+
 	Mean Body Gyroscope - Z axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyGyro-std()-X
+
 	Standard Deviation Body Gyroscope - X axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyGyro-std()-Y
+
 	Standard Deviation Body Gyroscope - Y axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyGyro-std()-Z
+
 	Standard Deviation Body Gyroscope - Z axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyGyro-meanFreq()-X
+
 	Mean Frequency Body Gyroscope - X axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyGyro-meanFreq()-Y
+
 	Mean Frequency Body Gyroscope - Y axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyGyro-meanFreq()-Z
+
 	Mean Frequency Body Gyroscope - Z axis (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
+
 fBodyAccMag-mean()
+
 	Mean Body Accelerometer Magnitude (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAccMag-std()
+
 	Standard Deviation Body Accelerometer Magnitude (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAccMag-meanFreq()
+
 	Mean Frequncy Body Accelerometer Magnitude (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAccJerkMag-mean()
+
 	Mean Body Accelerometer Jerk Magnitude (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAccJerkMag-std()
+
 	Standard Deviation Body Accelerometer Jerk Magnitude (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyAccJerkMag-meanFreq()
+
 	Mean Frequency Body Accelerometer Jerk Magnitude (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyGyroMag-mean()
+
 	Mean Body Gyroscope Magnitude (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyGyroMag-std()
+
 	Standard Deviation Body Gyroscope Magnitude (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
+
 fBodyGyroMag-meanFreq()
+
 	Mean Frequency Body Gyroscope Magnitude (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyGyroJerkMag-mean()
+
 	Mean Body Gyroscope Jerk Magnitude (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyGyroJerkMag-std()
+
 	Standard Deviation Body Gyroscope Jerk Magnitude (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		
 fBodyGyroJerkMag-meanFreq()
+
 	Mean Frequency Body Gyroscope Jerk Magnitude (frequency domain)
-		values = -1 ... +1
+
+	values = -1 ... +1
 		

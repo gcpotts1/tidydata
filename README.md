@@ -1,13 +1,16 @@
-# tidydata
 Author: gcpotts1
 Getting &amp; Cleaning Data Course Project
 This course project required downloading a zip file from address:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 The file was downloaded to my working directory and unzipped using the following commands.
+
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+
 download.file(fileUrl, destfile = "./Dataset.zip")
+
 dateDownloaded <- date()
+
 unzip("./Dataset.zip", overwrite = FALSE)
 
 At this point I explored the unzipped data and observed several files in the UCI HAR Dataset folder
@@ -33,11 +36,11 @@ The approach I used was:
 NOTE: I provided a column name for the subject data at this point.
 * Fourth - Using cbind, the data was bound in this order (Subject, Labels, Data)
 
-## This same process was repeated for the test data. It was noted when exploring the various
-files that the train and test data are of different length or number of observations. 
-This is why I chose to combine the appropriate information for training and test data 
-separately and then used rbind to append the test data to the training data.
-Now that I have one combined dataset I am ready for step 2.
+## This same process was repeated for the test data. 
+It was noted when exploring the various files that the train and test data are of different 
+length or number of observations.  This is why I chose to combine the appropriate information
+for training and test data separately and then used rbind to append the test data to the training
+data. Now that I have one combined dataset I am ready for step 2.
 
 ## Step 2 - Extract only the measurements on the mean and standard deviation for each measurements
  This could be interpreted in different ways: Extract only those measurements that have both
